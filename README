@@ -1,0 +1,103 @@
+# 🌸 Scent Sense — AI-Powered Fragrance Recommender
+
+Scent Sense is an AI-powered perfume recommendation system that helps users discover fragrances based on their preferred scent profile, mood, occasion, season, and other characteristics.
+
+Describe the fragrance you're looking for in natural language, and Scent Sense recommends perfumes from its catalogue.
+
+## ✨ Features
+
+- **Natural Language Search:** Describe your ideal fragrance in your own words.
+- **Hybrid Recommendation Engine:** Combines TF-IDF text similarity and semantic similarity.
+- **Fragrance Feature Matching:** Identifies characteristics such as woody, fresh, clean, sweet, elegant, romantic, and mysterious.
+- **Personalized Recommendations:** Ranks fragrances according to the user's query.
+- **Fragrance Insights:** Displays available descriptions, estimated season, sweetness, and matching characteristics.
+- **Interactive Web Interface:** Built with Streamlit and styled for a premium fragrance-consultation experience.
+
+## 🛠️ Tech Stack
+
+- Python
+- Streamlit
+- Pandas and NumPy
+- Scikit-learn
+- Sentence Transformers
+- TF-IDF Vectorization
+- Cosine Similarity
+- Pytest
+
+## 🧠 How It Works
+
+1. The user describes a preferred fragrance, mood, or occasion.
+2. The system processes the query and perfume catalogue.
+3. TF-IDF and semantic similarity help identify relevant fragrances.
+4. Fragrance characteristics and query constraints help refine matching.
+5. The recommendation engine ranks candidate perfumes.
+6. The Streamlit interface displays the results.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.10 or newer
+- Git
+- pip
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Muzzi7385/scent-sense.git
+cd scent-sense
+```
+
+### 2. Create and activate a virtual environment
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the application
+
+```bash
+python -m streamlit run app.py
+```
+
+Open the local URL displayed in your terminal to use the application.
+
+**Note:** The first recommendation may take longer if the semantic model needs to download or initialize.
+
+## 🧪 Testing
+
+Run the available tests:
+
+```bash
+python -m pytest -q tests/
+```
+
+## 🔮 Future Improvements
+
+- Optimize recommendation speed and model loading.
+- Improve recommendation evaluation using ranking metrics.
+- Expand the perfume catalogue.
+- Improve handling of missing data.
+- Deploy the application online.
+- Add fragrance comparisons and more detailed recommendation explanations.
+
+## ⚠️ Disclaimer
+
+Scent Sense is an experimental recommendation prototype. Results depend on the available catalogue data and recommendation algorithm. Estimated fragrance characteristics may not perfectly reflect individual preferences.
+
+## 👨‍💻 Author
+
+**Muzzi7385**
+
+[GitHub Profile](https://github.com/Muzzi7385)
+
+---
+
+*Discover your next signature scent with Scent Sense.* 🌸
