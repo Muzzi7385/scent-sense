@@ -1,0 +1,61 @@
+query,model,k,precision,recall,ndcg,constraint_violation
+Something crisp for a hot day,TF-IDF,1,1.0,0.5,1.0,0
+Something crisp for a hot day,TF-IDF,3,0.6666666666666666,1.0,0.9197207891481876,0
+Something crisp for a hot day,Semantic,1,0.0,0.0,0.0,0
+Something crisp for a hot day,Semantic,3,0.0,0.0,0.0,0
+Something crisp for a hot day,Hybrid,1,0.0,0.0,0.0,0
+Something crisp for a hot day,Hybrid,3,0.0,0.0,0.0,0
+A cozy vanilla scent for cold evenings,TF-IDF,1,1.0,1.0,1.0,0
+A cozy vanilla scent for cold evenings,TF-IDF,3,0.3333333333333333,1.0,1.0,0
+A cozy vanilla scent for cold evenings,Semantic,1,1.0,1.0,1.0,0
+A cozy vanilla scent for cold evenings,Semantic,3,0.3333333333333333,1.0,1.0,0
+A cozy vanilla scent for cold evenings,Hybrid,1,1.0,1.0,1.0,0
+A cozy vanilla scent for cold evenings,Hybrid,3,0.3333333333333333,1.0,1.0,0
+Green and herbal fragrance for everyday wear,TF-IDF,1,1.0,1.0,1.0,0
+Green and herbal fragrance for everyday wear,TF-IDF,3,0.3333333333333333,1.0,1.0,0
+Green and herbal fragrance for everyday wear,Semantic,1,1.0,1.0,1.0,0
+Green and herbal fragrance for everyday wear,Semantic,3,0.3333333333333333,1.0,1.0,0
+Green and herbal fragrance for everyday wear,Hybrid,1,1.0,1.0,1.0,0
+Green and herbal fragrance for everyday wear,Hybrid,3,0.3333333333333333,1.0,1.0,0
+A gentle rose fragrance for daily use,TF-IDF,1,1.0,1.0,1.0,0
+A gentle rose fragrance for daily use,TF-IDF,3,0.3333333333333333,1.0,1.0,0
+A gentle rose fragrance for daily use,Semantic,1,1.0,1.0,1.0,0
+A gentle rose fragrance for daily use,Semantic,3,0.3333333333333333,1.0,1.0,0
+A gentle rose fragrance for daily use,Hybrid,1,1.0,1.0,1.0,0
+A gentle rose fragrance for daily use,Hybrid,3,0.3333333333333333,1.0,1.0,0
+Dry woods with a spicy edge,TF-IDF,1,1.0,1.0,1.0,0
+Dry woods with a spicy edge,TF-IDF,3,0.3333333333333333,1.0,1.0,0
+Dry woods with a spicy edge,Semantic,1,1.0,1.0,1.0,0
+Dry woods with a spicy edge,Semantic,3,0.3333333333333333,1.0,1.0,0
+Dry woods with a spicy edge,Hybrid,1,1.0,1.0,1.0,0
+Dry woods with a spicy edge,Hybrid,3,0.3333333333333333,1.0,1.0,0
+Fresh fragrance within a budget of 3000,TF-IDF,1,1.0,1.0,1.0,0
+Fresh fragrance within a budget of 3000,TF-IDF,3,1.0,1.0,1.0,0
+Fresh fragrance within a budget of 3000,Semantic,1,1.0,1.0,1.0,0
+Fresh fragrance within a budget of 3000,Semantic,3,1.0,1.0,1.0,0
+Fresh fragrance within a budget of 3000,Hybrid,1,1.0,1.0,1.0,0
+Fresh fragrance within a budget of 3000,Hybrid,3,1.0,1.0,1.0,0
+An earthy scent with a woody character,TF-IDF,1,0.0,0.0,0.0,0
+An earthy scent with a woody character,TF-IDF,3,0.3333333333333333,0.5,0.38685280723454163,0
+An earthy scent with a woody character,Semantic,1,1.0,0.5,1.0,0
+An earthy scent with a woody character,Semantic,3,0.3333333333333333,0.5,0.6131471927654584,0
+An earthy scent with a woody character,Hybrid,1,0.0,0.0,0.0,0
+An earthy scent with a woody character,Hybrid,3,0.3333333333333333,0.5,0.38685280723454163,0
+A warm fragrance for an evening out,TF-IDF,1,1.0,0.5,1.0,0
+A warm fragrance for an evening out,TF-IDF,3,0.6666666666666666,1.0,1.0,0
+A warm fragrance for an evening out,Semantic,1,1.0,0.5,1.0,0
+A warm fragrance for an evening out,Semantic,3,0.6666666666666666,1.0,1.0,0
+A warm fragrance for an evening out,Hybrid,1,1.0,0.5,1.0,0
+A warm fragrance for an evening out,Hybrid,3,0.6666666666666666,1.0,1.0,0
+Something light and refreshing for summer,TF-IDF,1,1.0,0.5,1.0,0
+Something light and refreshing for summer,TF-IDF,3,1.0,1.0,1.0,0
+Something light and refreshing for summer,Semantic,1,1.0,0.5,1.0,0
+Something light and refreshing for summer,Semantic,3,1.0,1.0,1.0,0
+Something light and refreshing for summer,Hybrid,1,1.0,0.5,1.0,0
+Something light and refreshing for summer,Hybrid,3,1.0,1.0,1.0,0
+A sweet fragrance with amber and musk,TF-IDF,1,1.0,1.0,1.0,0
+A sweet fragrance with amber and musk,TF-IDF,3,0.3333333333333333,1.0,1.0,0
+A sweet fragrance with amber and musk,Semantic,1,1.0,1.0,1.0,0
+A sweet fragrance with amber and musk,Semantic,3,0.3333333333333333,1.0,1.0,0
+A sweet fragrance with amber and musk,Hybrid,1,1.0,1.0,1.0,0
+A sweet fragrance with amber and musk,Hybrid,3,0.3333333333333333,1.0,1.0,0

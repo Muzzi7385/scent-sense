@@ -1,0 +1,6 @@
+perfume_id,name,brand,description,top_notes,middle_notes,base_notes,gender,season,occasion,price_inr,sweetness,source
+P001,Citrus Woods,Sample Brand,"Fresh citrus fragrance with woody undertones",Bergamot,Lavender,Cedarwood,Masculine,Summer,College,3500,1,synthetic_demo
+P002,Sweet Amber,Sample Brand,"Warm sweet amber fragrance with vanilla notes",Vanilla,Amber,Musk,Unisex,Winter,Evening,4200,5,synthetic_demo
+P003,Fresh Green,Sample Brand,"Green aromatic fragrance with herbal and fresh notes",Lemon,Green notes,Vetiver,Unisex,Summer,Casual,2800,1,synthetic_demo
+P004,Soft Floral,Sample Brand,"Soft floral fragrance with rose and musk",Rose,Jasmine,White musk,Feminine,Spring,Daily,3000,3,synthetic_demo
+P005,Woody Spice,Sample Brand,"Dry woody fragrance with warm spicy notes",Pepper,Spices,Sandalwood,Masculine,Winter,Evening,4800,2,synthetic_demo
