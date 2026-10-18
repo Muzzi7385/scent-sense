@@ -1,39 +1,77 @@
-# 🌸 Scent Sense — AI-Powered Fragrance Recommender
+# Scent Sense | AI-Powered Fragrance Recommendation System
 
-Scent Sense is an AI-powered perfume recommendation system that helps users discover fragrances based on their preferred scent profile, mood, occasion, season, and other characteristics.
+**Discover fragrances that match your mood, personality, and occasion.**
 
-Describe the fragrance you're looking for in natural language, and Scent Sense recommends perfumes from its catalogue.
+Scent Sense is an intelligent fragrance recommendation system that interprets natural-language preferences and recommends perfumes using a hybrid approach combining text similarity, semantic similarity, and fragrance-feature matching.
 
-## ✨ Features
+---
 
-- **Natural Language Search:** Describe your ideal fragrance in your own words.
-- **Hybrid Recommendation Engine:** Combines TF-IDF text similarity and semantic similarity.
-- **Fragrance Feature Matching:** Identifies characteristics such as woody, fresh, clean, sweet, elegant, romantic, and mysterious.
-- **Personalized Recommendations:** Ranks fragrances according to the user's query.
-- **Fragrance Insights:** Displays available descriptions, estimated season, sweetness, and matching characteristics.
-- **Interactive Web Interface:** Built with Streamlit and styled for a premium fragrance-consultation experience.
+## Overview
 
-## 🛠️ Tech Stack
+Finding a fragrance that matches a particular mood or occasion can be difficult. Scent Sense lets users describe what they want in everyday language — such as *“a sophisticated woody fragrance for an evening out”* — and returns relevant recommendations from its perfume catalogue.
 
-- Python
-- Streamlit
-- Pandas and NumPy
-- Scikit-learn
-- Sentence Transformers
-- TF-IDF Vectorization
-- Cosine Similarity
-- Pytest
+### Key Features
 
-## 🧠 How It Works
+- **Natural-language search** — describe a scent, mood, or occasion in your own words.
+- **Hybrid recommendation engine** — combines TF-IDF-based text similarity with semantic embeddings.
+- **Fragrance-feature matching** — considers characteristics such as woody, fresh, sweet, elegant, and romantic.
+- **Ranked recommendations** — surfaces perfumes based on their relevance to the query.
+- **Fragrance insights** — displays available descriptions, estimated seasonality, sweetness, and matched features.
+- **Interactive interface** — built with Streamlit for a simple, user-friendly experience.
 
-1. The user describes a preferred fragrance, mood, or occasion.
-2. The system processes the query and perfume catalogue.
-3. TF-IDF and semantic similarity help identify relevant fragrances.
-4. Fragrance characteristics and query constraints help refine matching.
-5. The recommendation engine ranks candidate perfumes.
-6. The Streamlit interface displays the results.
+## Technology Stack
 
-## 🚀 Getting Started
+| Technology | Purpose |
+|---|---|
+| Python | Core application and recommendation logic |
+| Streamlit | Interactive web interface |
+| Pandas & NumPy | Data processing and numerical operations |
+| Scikit-learn | TF-IDF vectorization and similarity calculations |
+| Sentence Transformers | Semantic text embeddings |
+| Cosine Similarity | Measuring similarity between queries and perfume descriptions |
+| Pytest | Automated testing |
+
+## System Architecture
+
+```text
+User Query
+    |
+    v
+Query Processing & Constraints
+    |
+    v
+Text and Semantic Representations
+    |
+    +---------------------+
+    |                     |
+    v                     v
+TF-IDF Similarity    Semantic Similarity
+    |                     |
+    +----------+----------+
+               |
+               v
+      Fragrance Feature Matching
+               |
+               v
+       Recommendation Ranking
+               |
+               v
+      Ranked Perfume Results
+               |
+               v
+        Streamlit Interface
+```
+
+## How It Works
+
+1. **Input:** The user describes a desired fragrance, mood, season, or occasion.
+2. **Processing:** The application processes the query and relevant constraints.
+3. **Similarity analysis:** Text-based and semantic representations help identify relevant perfumes.
+4. **Feature matching:** Fragrance characteristics provide additional relevance signals.
+5. **Ranking:** The recommendation engine combines relevance signals to rank candidate perfumes.
+6. **Output:** The interface presents the recommended fragrances and their available attributes.
+
+## Getting Started
 
 ### Prerequisites
 
@@ -41,58 +79,86 @@ Describe the fragrance you're looking for in natural language, and Scent Sense r
 - Git
 - pip
 
-### 1. Clone the repository
+### Installation
+
+**1. Clone the repository**
 
 ```bash
 git clone https://github.com/Muzzi7385/scent-sense.git
 cd scent-sense
 ```
 
-### 2. Create and activate a virtual environment
+**2. Create a virtual environment**
 
 ```bash
 python3 -m venv .venv
+```
+
+**3. Activate the environment**
+
+macOS / Linux:
+
+```bash
 source .venv/bin/activate
 ```
 
-### 3. Install dependencies
+**4. Install dependencies**
 
 ```bash
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
-### 4. Run the application
+**5. Launch the application**
 
 ```bash
 python -m streamlit run app.py
 ```
 
-Open the local URL displayed in your terminal to use the application.
+Open the local URL displayed in the terminal to use the application.
 
-**Note:** The first recommendation may take longer if the semantic model needs to download or initialize.
+*Note: Initial startup or the first recommendation may take longer while the semantic model loads or initializes.*
 
-## 🧪 Testing
+## Testing
 
-Run the available tests:
+Run the available tests from the project root:
 
 ```bash
 python -m pytest -q tests/
 ```
 
-## 🔮 Future Improvements
+## Project Structure
 
-- Optimize recommendation speed and model loading.
-- Improve recommendation evaluation using ranking metrics.
-- Expand the perfume catalogue.
-- Improve handling of missing data.
-- Deploy the application online.
-- Add fragrance comparisons and more detailed recommendation explanations.
+```text
+scent-sense/
+├── app.py
+├── app/
+├── data/
+├── src/
+│   ├── data_loader.py
+│   ├── preprocessing.py
+│   ├── fragrance_features.py
+│   ├── query_constraints.py
+│   └── hybrid_model.py
+├── tests/
+├── requirements.txt
+└── README.md
+```
 
-## ⚠️ Disclaimer
+*The structure above highlights the main project files; individual folders may contain additional files.*
 
-Scent Sense is an experimental recommendation prototype. Results depend on the available catalogue data and recommendation algorithm. Estimated fragrance characteristics may not perfectly reflect individual preferences.
+## Future Enhancements
 
-## 👨‍💻 Author
+- Optimize model loading and recommendation latency.
+- Expand and improve fragrance-catalogue coverage.
+- Evaluate recommendation quality with appropriate ranking metrics.
+- Improve explanations for why a perfume was recommended.
+- Deploy the application for public access.
+
+## Disclaimer
+
+Scent Sense is an experimental recommendation prototype. Results depend on the available perfume catalogue, its metadata, and the recommendation algorithms. Estimated fragrance characteristics are indicative rather than definitive.
+
+## Author
 
 **Muzzi7385**
 
@@ -100,4 +166,4 @@ Scent Sense is an experimental recommendation prototype. Results depend on the a
 
 ---
 
-*Discover your next signature scent with Scent Sense.* 🌸
+*Built to make fragrance discovery more intuitive through AI.*
