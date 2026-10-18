@@ -8,16 +8,16 @@ Scent Sense is an intelligent fragrance recommendation system that interprets na
 
 ## Overview
 
-Finding a fragrance that matches a particular mood or occasion can be difficult. Scent Sense lets users describe what they want in everyday language — such as *“a sophisticated woody fragrance for an evening out”* — and returns relevant recommendations from its perfume catalogue.
+Finding a fragrance that matches a particular mood or occasion can be difficult. Scent Sense lets users describe what they want in everyday language, such as *"a sophisticated woody fragrance for an evening out"*, and returns relevant recommendations from its perfume catalogue.
 
 ### Key Features
 
-- **Natural-language search** — describe a scent, mood, or occasion in your own words.
-- **Hybrid recommendation engine** — combines TF-IDF-based text similarity with semantic embeddings.
-- **Fragrance-feature matching** — considers characteristics such as woody, fresh, sweet, elegant, and romantic.
-- **Ranked recommendations** — surfaces perfumes based on their relevance to the query.
-- **Fragrance insights** — displays available descriptions, estimated seasonality, sweetness, and matched features.
-- **Interactive interface** — built with Streamlit for a simple, user-friendly experience.
+- **Natural-language search**: describe a scent, mood, or occasion in your own words.
+- **Hybrid recommendation engine**: combines TF-IDF-based text similarity with semantic embeddings.
+- **Fragrance-feature matching**: considers characteristics such as woody, fresh, sweet, elegant, and romantic.
+- **Ranked recommendations**: surfaces perfumes based on their relevance to the query.
+- **Fragrance insights**: displays available descriptions, estimated seasonality, sweetness, and matched features.
+- **Interactive interface**: built with Streamlit for a simple, user-friendly experience.
 
 ## Technology Stack
 
@@ -102,6 +102,12 @@ macOS / Linux:
 source .venv/bin/activate
 ```
 
+Windows (PowerShell):
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
 **4. Install dependencies**
 
 ```bash
@@ -157,6 +163,10 @@ scent-sense/
 ## Disclaimer
 
 Scent Sense is an experimental recommendation prototype. Results depend on the available perfume catalogue, its metadata, and the recommendation algorithms. Estimated fragrance characteristics are indicative rather than definitive.
+
+## License
+
+Add your license here (e.g., MIT) and include a `LICENSE` file in the repository.
 
 ## Author
 
